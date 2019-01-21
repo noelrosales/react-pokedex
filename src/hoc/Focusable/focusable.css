@@ -1,0 +1,20 @@
+.focusable{
+    position: relative;
+    transition: all .05s ease-in-out;
+}
+
+.focusable:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 0px 1px 24px #666;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.focusable.marked{
+    transform: scale(1,1); 
+    opacity: .8;
+}
+
+.focusable.marked .pokemon{
+    box-shadow:inset 0 0 20px #000000;
+}

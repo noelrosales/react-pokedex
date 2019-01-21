@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    background: #4a148c;
+    padding: 20px;
+    color:#fff;
+    width: 100%;
+}
+
+.filter-type{
+    
+}
+
+.search{
+   background: #fff; 
+   padding: 18px;
+}
+
+.search input{
+    background: transparent;
+    border: 0px;
+    font-size: 1.4em;
+    outline: none;
+    color: #666
+}
+
+.search .icon{
+    color: #222
+}

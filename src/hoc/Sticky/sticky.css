@@ -1,0 +1,17 @@
+.sticky{
+    position: fixed;
+    top : 0;
+    right: 0;
+    background: red;
+    background: #fff;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 38.8vw;
+}
+
+.s{
+    transition: all 0.5s ease-in-out
+}

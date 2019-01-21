@@ -1,0 +1,28 @@
+.loader{
+    background: #fff;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.loader img{
+    animation: bounce .5s infinite alternate;
+    position: relative;
+    max-width: 300px;
+}
+
+@keyframes bounce {
+    from{
+        top : -80px;
+        transform: scale(.5,.5);
+        transform: rotate(-180deg)
+    }
+
+    to{
+        top : 40px;
+        transform: scale(1,1);
+        transform: rotate(72deg)
+    }
+}
